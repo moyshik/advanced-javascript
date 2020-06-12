@@ -3,7 +3,7 @@ const time = new Date();
 
 console.log("first");
 
-setTimeout(function(){
+setTimeout(() => {
     console.log("second");
 },4000);
 
